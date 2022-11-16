@@ -2,7 +2,7 @@
 
 ## Overview of the analysis: 
 
-The goal of this analysis is to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. Utilizing a given dataset of donor activity, the goal is to preprocess the dataset in order to compile, train, and evaluate the neural network model.; design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset; and optimize your model in order to achieve a target predictive accuracy higher than 75%.
+This analysis aims to create a binary classifier capable of predicting whether applicants will be successful if funded by Alphabet Soup. The team will design a neural network, or deep learning model created with a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset and optimize our model to achieve a target predictive accuracy higher than 75%. Initially, the goal is to preprocess the dataset to compile, train, and evaluate the neural network model.
 
 
 ## Results: 
@@ -14,20 +14,20 @@ The goal of this analysis is to create a binary classifier that is capable of pr
 Whether funding proves to influence success for those funded. [IS_SUCCESSFUL]
 
 
-* What variable(s) are considered to be the features for your model?
+* What variable(s) are considered to be the features of your model?
 
-Variables of focus included whether the application is successful, classification, application_type,   and  both amount variables. 
+Variables of focus included whether the application is successful, classification, application_type,   and both AMT variables. 
 
-* What variable(s) are neither targets nor features, and should be removed from the input data?
+* What variable(s) are neither targets nor features and should be removed from the input data?
 
-All variables are considered with the exclusion of EIN, NSME, SPECIAL_CONSIDERATIONS, and STATUS. 
+Variables excluded are EIN, NSME, SPECIAL_CONSIDERATIONS, and STATUS. 
 
 
 ### Compiling, Training, and Evaluating the Model
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-For the model, the accuracy would not go beyond 54%. There were 5 layers in the final model - using the activation modes of rawly, rely, sigmoid, linear, sigmoid, and linear, respectively. 
+For the model, the accuracy would not go beyond 54%. There were five layers in the final model - using the activation modes of rawly, rely on, sigmoid, linear, sigmoid, and linear, respectively. 
 Below is the code for the units and activations for each layer. 
 
 ![Code_Layer](Code_Layer.png)
@@ -39,12 +39,12 @@ Below is the code for the units and activations for each layer.
 
 ![DNN_Model_Accuracy](DNN_Model_Accuracy.png)
 
-Unfortunately, I was unable to achieve the desired accuracy but I believe Tahn may be the missing link. 
+Unfortunately, the desired accuracy of 75% was not achieved; however, Tahn may be the missing classification link. 
 
 * What steps did you take to try and increase model performance?
 
-I increased units and increased the number of layers but ultimately, the model performed similarly.
+I increased units and the number of layers but ultimately, the model performed similarly.
 
 ## Summary: 
 
-Ultimately, the final model should exclude additional categorical variable that, while important to our client, are not useful for the model. Again, there may be a place for the Than classification. Going forward, in order to achieve 575 we may need a larger dataset or have more preliminary statistical analysis to identify the structure of the data before machine learning. 
+Ultimately, the final model should exclude additional categorical variables that, while important to our client, are not useful for the model. Again, there may be a place for the Than classification. In the future, in order to achieve %75 we may need a more extensive dataset or have more preliminary statistical analysis to identify the structure of the data before machine learning. 
