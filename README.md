@@ -43,8 +43,8 @@ Unfortunately, the desired accuracy of 75% was not achieved; however, Tahn may b
 
 * What steps did you take to try and increase model performance?
 
-I increased units and the number of layers but ultimately, the model performed similarly.
+Units were increased as well ass the number of layers but ultimately, the model performed similarly, accuracy less than 55%.
 
 ## Summary: 
 
-Ultimately, the final model should exclude additional categorical variables that, while important to our client, are not useful for the model. Again, there may be a place for the Than classification. In the future, in order to achieve %75 we may need a more extensive dataset or have more preliminary statistical analysis to identify the structure of the data before machine learning. 
+Ultimately, the final model should exclude additional categorical variables that, while important to our client, are not useful for the model. Again, there may be a place for the Tahn classification. In the future, in order to achieve %75 we may need a more extensive dataset or have more preliminary statistical analysis to identify the structure of the data before machine learning. 
