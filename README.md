@@ -30,7 +30,7 @@ All variables are considered with the exclusion of EIN, NSME, SPECIAL_CONSIDERAT
 For the model, the accuracy would not go beyond 54%. There were 5 layers in the final model - using the activation modes of rawly, rely, sigmoid, linear, sigmoid, and linear, respectively. 
 Below is the code for the units and activations for each layer. 
 
-![Code_for_Layer](Code_Layer.png)
+![Code_Layer](Code_Layer.png)
 
 ![Summary_DNN_Model](Summary_DNN_Model.png)
 
