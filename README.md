@@ -36,7 +36,6 @@ Below is the code for the units and activations for each layer.
 
 * Were you able to achieve the target model performance?
 
-I increased units and increased the number of layers but ultimately, the model performed similarly. 
 
 ![DNN_Model_Accuracy](DNN_Model_Accuracy.png)
 
@@ -44,4 +43,8 @@ Unfortunately, I was unable to achieve the desired accuracy but I believe Tahn m
 
 * What steps did you take to try and increase model performance?
 
-## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+I increased units and increased the number of layers but ultimately, the model performed similarly.
+
+## Summary: 
+
+Ultimately, the final model should exclude additional categorical variable that, while important to our client, are not useful for the model. Again, there may be a place for the Than classification. Going forward, in order to achieve 575 we may need a larger dataset or have more preliminary statistical analysis to identify the structure of the data before machine learning. 
